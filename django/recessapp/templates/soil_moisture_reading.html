@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Soil Moisture Details</h1>
+    <h1>Hello world</h1>
+    <h2>{% for soil_reading in soil_readings%}</h2>
+    <p>{{ soil_reading.timestamp }}</p>
+    <p> {{ soil_reading.soil_moisture_percentage }} </p>
+    {% endfor %}
 </body>
 </html>
