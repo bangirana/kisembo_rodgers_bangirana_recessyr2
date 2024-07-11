@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1 {
+    background-color: rgb(30, 212, 54);
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 40px;
+}
+
+ul{
+    background-color: cornsilk;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form{
+    display: inline-block;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: rgb(30, 212, 54);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(30, 212, 54);
+    color: white;
+    opacity: 0.8;
+}
